@@ -77,5 +77,5 @@ plt.show()
 ![pie](https://github.com/AleDV89/An-lisis_MKT/blob/main/.pie.png)
 
 #### Contribuciones 💡 :
-* Puedes contribuir con este análisis y agregar tus perséctivas!
+* Puedes contribuir con este análisis y agregar tus perpectivas!
 
