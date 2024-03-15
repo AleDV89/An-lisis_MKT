@@ -25,13 +25,17 @@ Estos datos fueron utilizados de un archivo CSV pero puedes poner tus propios da
 
 También se verifica que la columna Income tiene 1% de datos nulos.
 
+df.columns = df.columns.str.strip()
+
 ```python
 df.isnull().sum()/len(df)*100
 
 
+Texto adicional después del bloque de código.
+
+
 * Se realiza una corrección con el espacio de la columna Income
 ```python
-df.columns = df.columns.str.strip()
 
 * Se quita el simbolo $ a los datos de la columna Income
 
