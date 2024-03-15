@@ -14,7 +14,7 @@ Estos datos fueron utilizados de un archivo CSV pero puedes poner tus propios da
 
 ### Fuentes de Datos:
 
-- **Base de datos interna:**
+- **Base de datos interna**
 
 ### 📊 Procesamiento de los Datos
 * Los datos se cargan en un DataFrame de Pandas y se procede a la lectura del mismo.
