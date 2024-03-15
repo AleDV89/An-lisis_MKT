@@ -36,6 +36,7 @@ df.isnull().sum()/len(df)*100
 * Se realiza una corrección con el espacio de la columna Income
 ```python
 
+```
 * Se quita el simbolo $ a los datos de la columna Income
 
 ```python
