@@ -10,7 +10,7 @@ Se analiza la situación de una empresa con el objetivo de comprender el problem
 
 ### 🔍 Obtención de Datos:
 En esta sección, se detalla cómo obtener los datos necesarios para el análisis de la campaña de marketing. 
-Estos datos fueron utilizados de un archivo CSV pero puedes poner tus propios datos como:  bases de datos internas, registros de clientes, encuestas, plataformas de análisis web, entre otros.
+Estos datos fueron extraidos de un archivo CSV pero puedes poner tus propios datos como:  bases de datos internas, registros de clientes, encuestas, plataformas de análisis web, entre otros.
 
 ### Fuentes de Datos:
 
