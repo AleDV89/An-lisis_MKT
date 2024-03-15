@@ -25,7 +25,6 @@ Estos datos fueron extraidos de un archivo CSV pero puedes poner tus propios dat
 
 También se verifica que la columna Income tiene 1% de datos nulos.
 
-df.columns = df.columns.str.strip()
 
 ```python
 df.isnull().sum()/len(df)*100
