@@ -31,9 +31,9 @@ df.columns = df.columns.str.strip()
 df.isnull().sum()/len(df)*100
 
 
-Texto adicional después del bloque de código.
 
 
+```
 * Se realiza una corrección con el espacio de la columna Income
 ```python
 
@@ -42,7 +42,7 @@ Texto adicional después del bloque de código.
 ```python
 df['Income'] = df['Income'].str.replace('$', '')
 
-
+```
 ### Análisis Exploratorio 📝
 
 * Se realizan el  análisis visual para ver la distribución de los ingresos de las familias en la columna Income
@@ -55,7 +55,7 @@ plt.title('Distribucion de la columna "Income"', size=25)
 plt.ylabel('Conteo')
 plt.show()
 
-  
+ ``` 
 ![Distribucion ](https://github.com/AleDV89/An-lisis_MKT/blob/main/seaborn.png
 )
 
@@ -63,7 +63,7 @@ plt.show()
 ```python
 df_income = df['Income'].median()
 
-
+```
 #### Grafico Pie para ver con claridad las campañas más aceptadas por los clientes.
 Función: Utiliza `plt.pie`
 Ejemplo de uso:
@@ -73,7 +73,7 @@ plt.pie(campaña_totales, labels=nombres_campañas, autopct='%1.1f%%', startangl
 plt.title('Distribución de las campañas más aceptadas por los clientes')
 plt.axis('equal') 
 plt.show()
-
+```
 ![pie](https://github.com/AleDV89/An-lisis_MKT/blob/main/.pie.png)
 
 #### Contribuciones 💡 :
