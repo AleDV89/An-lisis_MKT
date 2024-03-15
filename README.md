@@ -30,8 +30,6 @@ También se verifica que la columna Income tiene 1% de datos nulos.
 df.isnull().sum()/len(df)*100
 
 
-
-
 ```
 * Se realiza una corrección con el espacio de la columna Income
 ```python
@@ -45,7 +43,7 @@ df['Income'] = df['Income'].str.replace('$', '')
 ```
 ### Análisis Exploratorio 📝
 
-* Se realizan el  análisis visual para ver la distribución de los ingresos de las familias en la columna Income
+* Se realizan el  análisis visual para ver la distribución de los ingresos de las familias en la columna Income.
 Función: Utiliza `sns.histplot` con seaborn para crear este tipo de gráfico.
  Ejemplo de uso:
 ```python
